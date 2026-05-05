@@ -2,7 +2,7 @@
 nixPkgs = ["nodejs_20", "npm-9_x"]
 
 [phases.install]
-cmds = ["cd server && npm install && cd ../client && npm install"]
+cmds = ["cd server && npm install && cd ../client && npm install --include=optional"]
 
 [phases.build]
 cmds = ["cd server && npx prisma generate && cd ../client && npm run build"]
