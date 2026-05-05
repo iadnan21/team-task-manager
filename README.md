@@ -81,7 +81,7 @@ cd client && npm run dev    # Frontend on :3000
 
 Deployed on Railway with PostgreSQL addon.
 
-**Live URL**: [Coming soon]
+**Live URL**: https://app-production-a927.up.railway.app
 
 ## Demo
 
